@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de rogramación</title>
+    <!-- 
+        Segunda forma de escribir código de jvscript
+        Dentro de las etiquetas <head> </head> de html colocamos las etiquetas de <script> </script>
+        Esta forma tiene el incoveniente de que si el código interactua con algún elementos de html, marcará error porque el elemneto aún no ha sido colocado.
+        Se utiliza el atributo 'defer' en la etiqueta script, para que espere a cargar todo el html, antes de ejecutar el código.
+    -->
+<script defer>
+    console.log("Este mensaje es dentro del head")
+</script>
+
+<script defer src="./holamundo.js"></script>
+
+<!-- 
+    Tercera forma de escribir código JAVASCIPT
+    Demtros de las etiquetas <head> </head> uamos las etiquetas <script> </script> cn el atributo src 'source'
+    Esto quiere decir que podemos enlazar un archivo externo para ser leido en
+-->
+
+
+</head>
+<body>
+    <h1>Fundamentos de progrmación</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti eaque error architecto, quas earum quisquam ut vero fuga. Modi neque cumque eaque atque inventore, deserunt sed cupiditate ipsam excepturi!</p>
+    <!-- 
+        Primera forma de escribir código Javascript
+        Dentro de las etiqueta <script> ...código... </script>
+        Escribimos el código JS.
+        
+        Esta etiqueta está definida antes de la etiqueta del código, Esto es para cuando el código interactua con algún elemento de html este ya este creado antes de ejecutar las instrucciones.
+    -->
+    <script>
+        console.log("Mensaje desde la etiqueta script antes del cierre de body")
+    </script>
+</body>
+</html>
