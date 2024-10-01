@@ -142,7 +142,7 @@ console.log(compara); // true
 
 // Menor que (<): Verifica si el primer valor es menor que el segundo
 
-let Dimitri = 20;
+let Lili = 20;
 let SuCrush = 18;
 console.log (SuCrush < Lili); // true
 console.log(10 < 6); // false
