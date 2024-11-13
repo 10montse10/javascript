@@ -18,7 +18,7 @@ let nombreArray = {
 
 };
 
-Propiedades demtro de un objeto se escriben en paares "clave" : "valor"
+Propiedades dentro de un objeto se escriben en pares "clave" : "valor"
 
 let nombre = "Montse" // Variable
 nombre : "Montse" // Propiedad
